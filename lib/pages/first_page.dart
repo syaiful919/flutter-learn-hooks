@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:flutter_hooks_fab_scroll_tutorial/hooks/scroll_controller_for_animation.dart';
+import 'package:flutter_hooks_fab_scroll_tutorial/custom_hooks/scroll_controller_for_animation.dart';
 
-class HomePage extends HookWidget {
+class FirstPage extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final hideFabAnimController = useAnimationController(
